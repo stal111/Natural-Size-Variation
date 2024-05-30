@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "natural_size_variation",
+  "version": "${version}",
+
+  "name": "Natural Size Variation",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mandalacreations.natural_size_variation.fabric.NaturalSizeVariationFabric"
+    ]
+  },
+  "mixins": [
+    "natural_size_variation.mixins.json",
+    "natural_size_variation-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.20.6"
+  }
+}
